@@ -3,117 +3,90 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Benjamín Zárate</strong>, a programmer. I have a degree on
+      game design but i specialize on programming. <br />
+      I work with Unity since 2017 and i've worked on a variaty of projects: PC,
+      mobile and VR
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
-        <div style="clear:both"></div>
-      </div>
-    </div>
-    <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <!---<div style="margin-top: 20px; margin-bottom: 20px">
+        <a class="download-link" href="d/resume-en.pdf" target="_blank"
+          ><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a
+        >
+        <div style="clear: both"></div>
+      </div>--->
     </div>
 
-    <div style="clear:both"></div>
+    <div style="clear: both"></div>
 
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Internship - InvadeLab, Santiago (Chile)</h3>
+      <h4>January 2019 - March 2019</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>VR prototypes working with Unity 2018 and Oculus GO</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">
+        I made a 360 image gallery, an interactive 360 video player and some
+        games.
+      </div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>Dirty Wars - September 11</h3>
+      <h4>June 2019 - March 2020</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Incharge of player mechanics and IA</div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">
+        I was incharge of make the player movement mechanics and the behaviour
+        of the IA (Idle, alert, Attack), in a stealth game
+      </div>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Languages</h3>
+        <div>C#</div>
+        <div>Dart</div>
+        <div>Java</div>
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Software</h3>
+        <div>Unity</div>
+        <div>Blender</div>
+        <div>VSCode</div>
+        <div>Adobe Premiere Pro</div>
+        <div>Adobe After Effects</div>
+        <div>Adobe Photoshop</div>
       </div>
-      <div style="clear:both" />
+      <div style="clear: both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Instituto Profesional ARCOS 2016 - 2020</h3>
+      <h4>Game Designer degree</h4>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>Spanish</h3>
+      <div>Native</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
-      </div>
+      <h3>English</h3>
+      <div>Fluent writing and pronunciation</div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
+//import SkillRate from "@/components/SkillRate.vue";
 
 export default Vue.extend({
   name: "Resume",
-  components: {
-    SkillRate,
-  },
+  // components: {
+  //   SkillRate,
+  // },
 });
 </script>
 
@@ -146,7 +119,7 @@ h4 {
 }
 
 .download-link {
-  float:left;
+  float: left;
   margin-right: 50px;
 }
 
@@ -172,7 +145,7 @@ h4 {
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
@@ -185,7 +158,7 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 60px;
   }
 }
 </style>

@@ -1,153 +1,151 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
-    `
+    new ProjectData("project-1", "Naturever", "img/projects/Naturever.png", `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Naturever is a game about taking decision, based on the surviving of the Bucardo, an Iberian mountain goat that got extinct in the 2000's by overhunting
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xzhmIKzY1kg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
-
+    
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Develop in Unity 2019</li>
+        <li>Made in 48 hours for Game Jam +</li>
+        <li>Won 2nd Place</li>
         </ul>
     </div>
-
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+    <div class="notice">
+        Android build available on <a href="https://mrham.itch.io/naturever" target="_blank">itch.io</a>.
+        Source code is available on <a href="https://github.com/benjaminZarate/Naturever" target="_blank">GitHub</a>.
+    </div>
+    </div>
+    `, "#23bd69"),
+
+    new ProjectData("project-2", "2 Rats 1 Player", "img/projects/2rats1player.png", `
+    <div class="paragraph">
+        <strong>2 Rats 1 Player is a puzzle game where you must control 2 rats to get at the end of the city!
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P0E2-IsXwcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Developed in Unity 2017</li>
+        <li>Made in 48 hours</li>
         </ul>
     </div>
 
     <div class="paragraph">
     <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available on <a href="https://mrham.itch.io/2-rats-1-player" target="_blank">itch.io</a>.
     </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+
+    new ProjectData("project-3", "Chicken Kiss", "img/projects/chickenKiss.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        <strong>Your partners has been captured and your duty is to rescue them before the world tour begin!
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dhyI5b42_Fs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Developed in Unity 2020</li>
+        <li>Made in 48 hours</li>
         </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available on <a href="https://mrham.itch.io/chicken-kiss" target="_blank">itch.io</a>.
+        Source code is available on <a href="https://github.com/benjaminZarate/Chicken-Kiss" target="_blank">GitHub</a>.
         </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+
+    new ProjectData("project-4", "Museum VR", "img/projects/museumvr.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+    <strong>In Museum VR you can enjoy different pieces of art and get information about it
+    <div>
+    <div class ="paragraph center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WtcPd67cDBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     </div>
     
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Developed in Unity 2018</li>
+        <li>For the Oculus GO</li>
         </ul>
     </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
     `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
+
+    new ProjectData("project-5", "Zombie VR", "img/projects/zombievr.png", `
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        <strong>Survive to the waves of zombies that are coming after you
+        
+        <div>
+            <div class="paragraph center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i-uxJOdS0no" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
     
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Developed in Unity 2018</li>
+        <li>For the Oculus GO</li>
         </ul>
     </div>
+`, "#e48246"),
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
+    new ProjectData("project-5", "Gallery 360", "img/projects/gallery360.png", `
+<div class="paragraph">
+    <strong>Watch different pictures and interactive videos in 360 degrees
+    
+    <div>
+        <div class="paragraph center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mVm-J1-MR3A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+</div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+<div class="paragraph">
+    Main features :
+    <ul>
+    <li>Developed in Unity 2018</li>
+    <li>For the Oculus GO</li>
+    </ul>
+</div>
+`, "#e48246"),
+
+    new ProjectData("project-5", "Runner VR", "img/projects/runnervr.png", `
+<div class="paragraph">
+    <strong>Dodge multiples obstacles to collect all the coins and get to the finish line
+    
+    <div>
+        <div class="paragraph center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WZZy_zElW8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="paragraph">
+    Main features :
+    <ul>
+    <li>Developed in Unity 2018</li>
+    <li>For the Oculus GO</li>
+    </ul>
+</div>
+`, "#e48246"),
 ];
