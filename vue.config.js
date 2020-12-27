@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/benjaminZarate.github.io/'
+        ? 'https://benjaminzarate.github.io/gamedev-portfolio/'
         : '/'
 }
