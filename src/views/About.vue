@@ -5,19 +5,15 @@
     <div class="paragraph">
       <div>
         Welcome to my webpage! Here you can find some works that i've made
-        through my career. I'm <strong>Benjamín Zárate</strong>, a programmer
-        and game designer.<br />
-        I have a degree on Game Design and have experience building game for PC,
-        mobile and VR
+        through my career. I'm <strong>Benjamín Zárate</strong>, a gameplay
+        programmer and game designer.<br />
+        I'm open to learn new technologies and try new challenges
       </div>
 
       <div style="margin-top: 20px">
-        I've worked on different kind of
-        <router-link to="/game-projects">games</router-link>
-      </div>
-
-      <div style="margin-top: 40px">
-        I'm always working on new things to push myself.
+        Here you can find different
+        <router-link to="/game-projects">projects</router-link> that I've worked
+        on
       </div>
     </div>
 

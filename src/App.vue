@@ -1,11 +1,5 @@
 <template>
   <div id="app">
-    <link
-      rel="stylesheet"
-      href="@/assets/projects/projects.css"
-      type="text/css"
-    />
-
     <Header />
     <div class="main">
       <transition name="fade" mode="out-in">
@@ -19,14 +13,12 @@
 <script lang="ts">
 import Vue from "vue";
 import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
 import Helpers from "./helpers";
 
 export default Vue.extend({
   name: "App",
   components: {
     Header,
-    Footer,
   },
 });
 
