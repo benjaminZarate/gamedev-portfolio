@@ -128,7 +128,7 @@ export default [
     <li>For the Oculus GO</li>
     </ul>
 </div>
-`, "#e48246"),
+`, "#3ADCE0"),
 
     new ProjectData("project-5", "Runner VR", "img/projects/runnervr.png", `
 <div class="paragraph">
@@ -147,5 +147,5 @@ export default [
     <li>For the Oculus GO</li>
     </ul>
 </div>
-`, "#e48246"),
+`, "#E06901"),
 ];

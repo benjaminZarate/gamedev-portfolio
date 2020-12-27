@@ -73,7 +73,7 @@
       <div>Native</div>
 
       <h3>English</h3>
-      <div>Fluent writing and pronunciation</div>
+      <div>Fluent writing and speaking</div>
     </div>
   </div>
 </template>
